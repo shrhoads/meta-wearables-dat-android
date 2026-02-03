@@ -1,7 +1,7 @@
 # Meta Wearables Device Access Toolkit for Android
 
-[![Maven](https://img.shields.io/badge/Maven-0.3.0-brightgreen?logo=apachemaven)](https://github.com/orgs/facebook/packages?repo_name=meta-wearables-dat-android)
-[![Docs](https://img.shields.io/badge/API_Reference-0.3-blue?logo=meta)](https://wearables.developer.meta.com/docs/reference/android/dat/0.3)
+[![Maven](https://img.shields.io/badge/Maven-0.4.0-brightgreen?logo=apachemaven)](https://github.com/orgs/facebook/packages?repo_name=meta-wearables-dat-android)
+[![Docs](https://img.shields.io/badge/API_Reference-0.4-blue?logo=meta)](https://wearables.developer.meta.com/docs/reference/android/dat/0.4)
 
 The Meta Wearables Device Access Toolkit enables developers to utilize Meta's AI glasses to build hands-free wearable experiences into their mobile applications.
 By integrating this SDK, developers can reliably connect to Meta's AI glasses and leverage capabilities like video streaming and photo capture.
@@ -60,7 +60,7 @@ Check the available versions in [GitHub Packages](https://github.com/orgs/facebo
 
 ```toml
 [versions]
-mwdat = "0.3.0"
+mwdat = "0.4.0"
 
 [libraries]
 mwdat-core = { group = "com.meta.wearable", name = "mwdat-core", version.ref = "mwdat" }
